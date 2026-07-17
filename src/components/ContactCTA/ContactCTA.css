@@ -1,0 +1,59 @@
+/* Contact CTA Component Styles */
+.cta-section {
+  background-color: var(--bg-color);
+}
+
+.cta-card {
+  background-color: #0c355a !important; /* Premium Navy Blue */
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-xl);
+}
+
+.cta-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.cta-text {
+  font-size: 1.1rem;
+  max-width: 650px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-cta-outline {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+}
+
+.btn-cta-outline:hover {
+  background-color: #ffffff !important;
+  color: var(--primary-color) !important;
+  border-color: #ffffff !important;
+}
+
+@media (max-width: 992px) {
+  .cta-card {
+    padding: 3rem 2rem !important;
+  }
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  .cta-text {
+    font-size: 1rem;
+  }
+  .cta-actions {
+    width: 100%;
+  }
+  .cta-actions a,
+  .cta-actions button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,100 @@
+/* Rooms Page Styles */
+.rooms-header-banner {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--navbar-height);
+}
+
+.rooms-listing-section {
+  background-color: var(--bg-color);
+}
+
+/* Filter Sidebar */
+.filter-sidebar {
+  position: sticky;
+  top: 95px;
+  border-color: var(--border-color) !important;
+}
+
+.filter-sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.clear-filter-btn {
+  background: transparent;
+  border: none;
+  font-size: 0.85rem;
+  color: var(--danger);
+  font-weight: 600;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.clear-filter-btn:hover {
+  color: #bd1f1f;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+}
+
+.search-input-wrapper input {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.search-input-wrapper input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(15, 76, 129, 0.2);
+}
+
+.filter-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  transition: color var(--transition-fast);
+}
+
+.filter-radio-label input[type="radio"] {
+  accent-color: var(--primary-color);
+  width: 16px;
+  height: 16px;
+}
+
+.filter-radio-label:hover {
+  color: var(--primary-color);
+}
+
+/* No Results Box */
+.no-results-box {
+  border-color: var(--border-color) !important;
+}
+
+.no-results-icon {
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--text-light);
+}
+
+.results-count {
+  font-size: 0.95rem;
+}

@@ -1,0 +1,123 @@
+/* Footer Component Styles */
+.footer-custom {
+  background-color: #061d31; /* Deep rich dark navy */
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5rem 0 2rem 0;
+  border-top: 4px solid var(--accent-color);
+}
+
+.footer-top {
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  font-family: var(--font-headings);
+  font-weight: 800;
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+}
+
+.footer-desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  position: relative;
+  padding-bottom: 0.6rem;
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35px;
+  height: 3px;
+  background-color: var(--accent-color);
+  border-radius: var(--radius-full);
+}
+
+/* Footer Links List */
+.footer-links-list li {
+  margin-bottom: 0.9rem;
+}
+
+.footer-links-list a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  display: inline-block;
+  transition: all var(--transition-fast);
+}
+
+.footer-links-list a:hover {
+  color: var(--accent-color);
+  transform: translateX(5px);
+}
+
+.feature-item {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-flex;
+  align-items: center;
+}
+
+.feature-item::before {
+  content: '✓';
+  color: var(--accent-color);
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+/* Contact List */
+.footer-contact-list li {
+  margin-bottom: 1.2rem;
+}
+
+.contact-icon {
+  font-size: 1.1rem;
+}
+
+.contact-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a.contact-text:hover {
+  color: var(--accent-color);
+}
+
+/* Social Buttons */
+.social-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-normal);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icon-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--text-main);
+  transform: translateY(-3px);
+  border-color: var(--accent-color);
+  box-shadow: 0 5px 15px rgba(244, 180, 0, 0.3);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  padding-top: 2rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}

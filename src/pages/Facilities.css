@@ -1,0 +1,34 @@
+/* Facilities Page Styles */
+.facilities-header-banner {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--navbar-height);
+}
+
+.facilities-grid-section {
+  background-color: var(--bg-color);
+}
+
+/* Spotlight Card */
+.spotlight-card {
+  background-color: var(--card-bg);
+  border-color: var(--border-color) !important;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+}
+
+.spotlight-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(15, 76, 129, 0.2) !important;
+  box-shadow: var(--shadow-md);
+}
+
+.spotlight-card h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}

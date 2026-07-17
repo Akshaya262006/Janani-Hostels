@@ -1,0 +1,110 @@
+/* Contact Page Styles */
+.contact-header-banner {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--navbar-height);
+}
+
+.contact-main-section {
+  background-color: var(--bg-color);
+}
+
+/* Contact Info Card */
+.contact-info-card {
+  background-color: var(--primary-color);
+  background-image: linear-gradient(135deg, var(--primary-color) 0%, #061d31 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.whatsapp-box {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.btn-whatsapp-chat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #25D366; /* Official WhatsApp color */
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  font-family: var(--font-headings);
+  font-size: 0.9rem;
+}
+
+.btn-whatsapp-chat:hover {
+  background-color: #128C7E;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+}
+
+/* Form Wrapper */
+.contact-form-wrapper {
+  border-color: var(--border-color) !important;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper select,
+.contact-form-wrapper textarea {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  background-color: #fcfdfe;
+}
+
+.contact-form-wrapper input:focus,
+.contact-form-wrapper select:focus,
+.contact-form-wrapper textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 8px rgba(15, 76, 129, 0.15);
+  background-color: #ffffff;
+}
+
+/* Success State */
+.success-icon-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: var(--success-light);
+  color: var(--success);
+  border-radius: var(--radius-full);
+  font-size: 2.5rem;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+/* Map Frame */
+.map-iframe-container {
+  width: 100%;
+  line-height: 0;
+}
+
+.map-title-bar h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
